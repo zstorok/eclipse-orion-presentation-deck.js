@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Zsolt T&#246;r&#246;k: Eclipse Orion &ndash; Eclipse DemoCamp Budapest, 2011 November</title>
+	<meta name="viewport" content="width=1024, user-scalable=no">
+	
+	<!-- Replace path with correct path to deck.core.css. -->
+	<link rel="stylesheet" href="css/deck.core.css" type="text/css">
+	
+	<!-- Any other extension CSS files go here. -->
+	<link rel="stylesheet" href="css/web-2.0.css">
+	<link rel="stylesheet" href="css/horizontal-slide.css">
+	
+	<!-- Replace path with correct path to Modernizr file. -->
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body class="deck-container">
+
+<!-- Create any number of elements with class slide within the container -->
+
+<section class="slide" id="title-slide">
+	<h1>Eclipse Orion</h1>
+</section>
+
+<section class="slide" id="how-to-overview">
+	<h2>Overview</h2>
+	<ol>
+		<li>
+			<h3>What is Orion?</h3>
+			<p>Use cases and objective.</p>
+		</li>
+		<li>
+			<h3>Architecture</h3>
+			<p>Brief architectural overview.</p>
+		</li>
+		<li>
+			<h3>Extending Orion</h3>
+			<p>Writing a simple Orion plug-in in JavaScript.</p>
+		</li>
+	</ol>
+</section>
+
+<section class="slide" id="what-is-orion"/>
+	<h2>What is Orion?</h2>
+	<blockquote cite="http://wiki.eclipse.org/Orion">
+	  <p>[...] a browser-based open tool integration platform which is entirely focused on developing for the web, in the web.</p>
+	  <p><cite>Orion Wiki</cite></p>
+	</blockquote>
+	<ul>
+		<li class="slide"/>Not a desktop IDE in a browser</li>
+		<li class="slide"/>Not related to Rich Ajax Platform (RAP)</li>
+		<li class="slide"/>REST-oriented HTTP Server API (example implementation based on Equinox/Jetty)</li>
+		<li class="slide"/>Client components written in JavaScript</li>
+	</ul>
+</section>
+
+<section class="slide" id="architecture">
+	<h2>Architecture</h2>
+	<a href="http://wiki.eclipse.org/Orion/Documentation/Developer_Guide/Architecture" target="_blank">
+		<img src="img/Orion_Architecture_1.jpg" width="80%"/></a>
+</section>
+	
+<!-- Other extension HTML snippets go here, at the bottom of the deck container. -->
+
+<!-- Update these paths to point to the correct files. -->
+<script src="js/jquery-1.6.4.min.js"></script>
+<script src="js/deck.core.js"></script>
+
+<!-- Add any other extension JS files here -->
+
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+	$(function() {
+		$.deck('.slide');
+	});
+</script>
+</body>
+</html>
