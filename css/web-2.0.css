@@ -94,11 +94,7 @@
 }
 .deck-container .slide blockquote {
   font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
-<<<<<<< OURS
   font-size: 1.2em;
-=======
-  font-size: 1em;
->>>>>>> THEIRS
   padding: 1em 2em .5em 2em;
   color: #000;
   background: #fff;
